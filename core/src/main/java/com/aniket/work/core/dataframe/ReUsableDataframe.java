@@ -11,6 +11,6 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 public class ReUsableDataframe<D> implements Dataframe<D> {
 
-    protected MetaData metaData;
-    protected D data;
+    public MetaData metaData;
+    public D data;
 }

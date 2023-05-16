@@ -6,7 +6,7 @@ import lombok.experimental.SuperBuilder;
 
 @AllArgsConstructor
 @SuperBuilder
-@NoArgsConstructor
-public class JSONDataframe extends ReUsableDataframe<String> {
+public class JSONDataframe extends ReUsableDataframe<Object> {
+
 
 }
