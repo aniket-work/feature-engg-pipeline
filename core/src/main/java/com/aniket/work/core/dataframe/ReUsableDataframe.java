@@ -8,7 +8,6 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @Getter
 @SuperBuilder
-@NoArgsConstructor
 public class ReUsableDataframe<D> implements Dataframe<D> {
 
     public MetaData metaData;
